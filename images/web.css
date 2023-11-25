@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(images/travel.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pimg2{
+    background-image: url(images/travel2.jpg);
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url(images/sunset.jpg);
+    min-height: 100%;
+}
+ 
+.pimg4{
+    background-image: url(images/travel3.jpg);
+    min-height: 80%;
+}
+
+.pimg1 , .pimg2 , .pimg3 , .pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background: black;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background: #b2bbc4;
+    color: #262525;
+}
+
+.section-dark{
+    background-color: rgb(121, 191, 219);
+    color: rgb(255, 255, 255);
+}
+
+.section-blur{
+    background-color: rgb(21, 50, 6);
+    color: aliceblue;
+}
+
+/* .pimg3 .ptext .textbg{
+    background: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.pimg4 .ptext .textbg{
+    background: none;
+    color: black;
+    font-weight: 600;
+} */
